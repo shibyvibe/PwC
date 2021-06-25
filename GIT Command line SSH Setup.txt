@@ -1,0 +1,7 @@
+ssh-keygen -t rsa -b 4096 -C "shiby.surendranath@sandyspringbank.com"
+eval "$(ssh-agent -s)"
+ssh-add
+
+open the file /c/Users/VNDR_SSurendranath/.ssh/id_rsa.pub and copy and paste the rsa key content into the GitHub Settings >> SSH and GPG keys >> SSH Keys >> New SSH Keys
+
+The from command line can git clone any repository.
